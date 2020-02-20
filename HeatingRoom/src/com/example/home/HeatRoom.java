@@ -22,7 +22,7 @@ public class HeatRoom implements Runnable {
                 public void run() {
             Thread th = Thread.currentThread();
             for (int i = 1; i<=this.number;i++) {
-                System.out.println(th.getName()+""+"!="+startHeating(i));
+                System.out.println(th.getName()+""+"!="+i+"="+startHeating(i));
             }
         }
     }
